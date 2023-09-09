@@ -1,2 +1,2 @@
 #!/bin/bash
-mkdir "holbertonschool-shell/welcome""holbertonschool-shell/welcome/to""holbertonschool-shell/welcome/to/school"
+mkdir rmp-holbertonschool-shell/{welcome,welcome/to,welcome/to/school}
