@@ -1,2 +1,2 @@
 #!/bin/bash
-export PATH="$path:/home" | wc
+export PATH="$path:/bin:/home:/user:/home/me" | wc 1
