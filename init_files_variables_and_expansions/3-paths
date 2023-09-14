@@ -1,2 +1,2 @@
 #!/bin/bash
-export PATH="$path:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin" | wc 1
+echo $path | tr "\n" | wc -d 1
