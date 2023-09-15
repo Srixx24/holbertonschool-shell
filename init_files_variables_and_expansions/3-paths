@@ -1,2 +1,2 @@
 #!/bin/bash
-echo '$path' | tr ' ' '\n' | wc
+echo '$path' | tr ' ' '\n' | wc -c
