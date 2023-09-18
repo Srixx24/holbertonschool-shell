@@ -1,11 +1,11 @@
 #!/usr/bin/env bash
 # if then 9
 n=1
-while [ $n -le 10 ]
+while [ $n -le 11 ]
 do
-if [ $n -ne 9 ]
+if [ $n -ne 10 ]
 then
-echo "best School"
+echo "Best School"
 else 
 echo "Hi"
 fi
