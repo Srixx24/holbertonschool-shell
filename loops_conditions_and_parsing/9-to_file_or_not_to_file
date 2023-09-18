@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+# loops and files
+file="school"
+if [ -e $file ]
+then 
+echo "school file exists"
+else 
+echo "school file does not exsist"
+fi
