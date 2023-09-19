@@ -1,3 +1,0 @@
-#!/usr/bin/env bash
-#last guy awk
-awk '{print $1,$9}' apache-access.log | sort | uniq 
