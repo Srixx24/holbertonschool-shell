@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 # loops and files
-file="school"
-if [ -e $file ]
+file="./school"
+if [ $file ]
 then 
 echo "school file exists"
 if [ -s $file ]
