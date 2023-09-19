@@ -2,13 +2,13 @@
 # loops and files
 file="./school"
 if [ -e $file ]
-then 
+then 	
 echo "school file exists"
 if [ -s $file ]
 then 
-echo "school file is empty"
-else
 echo "school file is not empty"
+else
+echo "school file is empty"
 fi
 if [ -f $file ]
 then 
